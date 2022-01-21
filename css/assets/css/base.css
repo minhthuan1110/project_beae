@@ -1,0 +1,38 @@
+
+:root{
+    --woocommerce: #a46497;
+    --wc-green: #7ad03a;
+    --wc-red: #a00;
+    --wc-orange: #ffba00;
+    --wc-blue: #2ea2cc;
+    --wc-primary: #a46497;
+    --wc-primary-text: white;
+    --wc-secondary: #ebe9eb;
+    --wc-secondary-text: #515151;
+    --wc-highlight: #77a464;
+    --wc-highligh-text: white;
+    --wc-content-bg: #fff;
+    --wc-subtext: #767676;
+}
+.nav__item.active > a i,
+.nav__item.active > a{
+    color:var(--wc-green) ;
+}
+/* button */
+.btn{
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 20px;
+    font-weight: 700;
+    border: 2px solid var(--wc-primary-text);
+    text-transform:uppercase;
+    color: var(--wc-primary-text);
+    box-sizing: border-box;
+}
+.btn:hover{
+    background-color: var(--wc-primary-text);
+    color: var(--wc-green);
+    transition: all .3s ease-in-out;
+}
